@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+canvas {
+  display: block;
+}
+
+#info {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+#info h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+}
+
+#info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
